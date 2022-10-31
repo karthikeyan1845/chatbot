@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import *
-from pymongo import MongoClient
+from pymongo import MongoClients
 import requests
 import os
 import re
