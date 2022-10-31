@@ -14,11 +14,7 @@ ERROR_LOG = os.environ.get("ERROR_LOG", None)
 MONGO_URL = os.environ.get("MONGO_URL", None)
 
 
-bot = Client(
-    "KukiBot" ,
-    api_id = API_ID,
-    api_hash = API_HASH ,
-    bot_token = BOT_TOKEN
+
 )
 
 async def is_admins(chat_id: int):
